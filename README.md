@@ -90,7 +90,25 @@ Make sure you run the command from the directory containing `main.py`.
 ## 📸 Project Screenshots
 
 Screenshots of the registration interface, face detection, recognition and attendance records can be added here.
+## 📸 Project Screenshots
 
+### Main Dashboard
+![Main Dashboard](screenshots/dashboard.png)
+
+### Student Registration
+![Registration](screenshots/registration.png)
+
+### Face Detection
+![Face Detection](screenshots/face-detection.png)
+
+### Face Recognition
+![Face Recognition](screenshots/face-recognition.png)
+
+### Attendance Records
+![Attendance](screenshots/attendance.png)
+
+### Attendance Successfully Marked
+![Success](screenshots/success.png)
 ## 🔮 Future Scope
 
 - Cloud-based attendance storage.
