@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Face Recognition Attendance System</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#08111f;color:#f4f7fb;line-height:1.7}
+header{padding:22px 8%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #24354b}
+header b{color:#67b5ff;font-size:20px}
+nav a{color:#c6d4e5;text-decoration:none;margin-left:20px;font-size:14px}
+.hero{padding:100px 9%;background:radial-gradient(circle at 80%,#163c65,#08111f 55%)}
+.tag{color:#64d8db;letter-spacing:3px;font-size:12px}
+h1{font-size:clamp(38px,6vw,65px);line-height:1.15;margin:20px 0}
+h1 span{color:#65adff}
+.hero p{max-width:650px;color:#b6c5d8;font-size:17px}
+.btn{display:inline-block;background:#65adff;color:#08111f;padding:13px 22px;border-radius:7px;text-decoration:none;font-weight:bold;margin-top:25px}
+section{padding:75px 9%}
+h2{font-size:35px;margin-bottom:20px}
+.muted{color:#aebed1}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:30px}
+.card{background:#111f32;border:1px solid #263c56;border-radius:12px;padding:25px}
+.card h3{color:#75c4ff;margin:12px 0}
+.card p{color:#aebed1;font-size:14px}
+.number{color:#62d6d7;font-size:25px}
+.tech{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}
+.tech span{background:#172b43;border:1px solid #315274;padding:12px 18px;border-radius:7px;color:#8dcaff}
+.workflow{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:15px;margin-top:30px}
+.workflow div{background:#111f32;padding:20px;border-radius:10px;border-top:3px solid #65adff}
+footer{text-align:center;padding:35px;background:#050b14;color:#8da0b8}
+@media(max-width:600px){header{flex-direction:column;gap:12px}nav a{margin:8px}section{padding:55px 7%}.hero{padding:70px 7%}}
+</style>
+</head>
+<body>
+<header>
+<b>FR | PROJECT</b>
+<nav>
+<a href="#about">About</a>
+<a href="#features">Features</a>
+<a href="#tech">Technology</a>
+<a href="#workflow">Workflow</a>
+</nav>
+</header>
+
+<div class="hero">
+<div class="tag">PYTHON • OPENCV • COMPUTER VISION</div>
+<h1>Face Recognition<br><span>Attendance System</span></h1>
+<p>A smart computer vision application that identifies registered individuals through facial recognition and automatically records their attendance.</p>
+<a class="btn" href="https://github.com/sharmaakshit4974-cyber/face-recognition-attendance-system">Explore Source Code ↗</a>
+</div>
+
+<section id="about">
+<div class="tag">01 / OVERVIEW</div>
+<h2>About the Project</h2>
+<p class="muted">The Face Recognition Attendance System is developed using Python and OpenCV. It detects and recognizes registered faces and records attendance automatically. The main objective is to reduce manual work, save time and improve attendance management.</p>
+</section>
+
+<section id="features">
+<div class="tag">02 / FEATURES</div>
+<h2>What the System Offers</h2>
+<div class="cards">
+<div class="card"><div class="number">01</div><h3>Face Detection</h3><p>Detects human faces through camera input using computer vision.</p></div>
+<div class="card"><div class="number">02</div><h3>Face Registration</h3><p>Registers individuals and collects face data for recognition.</p></div>
+<div class="card"><div class="number">03</div><h3>Face Recognition</h3><p>Recognizes registered individuals using the LBPH method.</p></div>
+<div class="card"><div class="number">04</div><h3>Attendance Recording</h3><p>Automatically records attendance after successful recognition.</p></div>
+<div class="card"><div class="number">05</div><h3>Student Management</h3><p>Helps organize student information and attendance records.</p></div>
+</div>
+</section>
+
+<section id="tech">
+<div class="tag">03 / TECHNOLOGY STACK</div>
+<h2>Tools & Technologies</h2>
+<p class="muted">Technologies used in developing this project.</p>
+<div class="tech">
+<span>Python</span><span>OpenCV</span><span>LBPH</span><span>Haar Cascade</span><span>Tkinter GUI</span>
+</div>
+</section>
+
+<section id="workflow">
+<div class="tag">04 / HOW IT WORKS</div>
+<h2>Project Workflow</h2>
+<div class="workflow">
+<div><div class="number">01</div><h3>Register</h3><p class="muted">Register student face data.</p></div>
+<div><div class="number">02</div><h3>Detect</h3><p class="muted">Detect a face using the camera.</p></div>
+<div><div class="number">03</div><h3>Recognize</h3><p class="muted">Identify the registered person.</p></div>
+<div><div class="number">04</div><h3>Record</h3><p class="muted">Record attendance automatically.</p></div>
+</div>
+</section>
+
+<section>
+<div class="tag">05 / SOURCE CODE</div>
+<h2>Explore the Project</h2>
+<p class="muted">View the source code, project files and setup instructions on GitHub.</p>
+<a class="btn" href="https://github.com/sharmaakshit4974-cyber/face-recognition-attendance-system">View GitHub Repository ↗</a>
+</section>
+
+<footer>
+<p>Face Recognition Attendance System</p>
+<p>Computer Science & Engineering | Project Portfolio</p>
+</footer>
+</body>
+</html>
